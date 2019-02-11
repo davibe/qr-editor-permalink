@@ -28,6 +28,7 @@ class App extends Component {
             }
             value={this.state.text}
           />
+          <p></p>
         </header>
       </div>
     )
