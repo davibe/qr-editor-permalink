@@ -1,27 +1,36 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import './App.css'
+var QRCode = require('qrcode.react')
+
 
 class App extends Component {
+  constructor(props) {
+    super(props)
+    const text = unescape(window.location.href.split(/#(.+)/)[1] || "")
+    this.state = { text }
+  }
+  onChange(e) {
+    const text = e.target.value
+    window.location.hash = escape(text)
+    this.setState({ text })
+  }
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+
+          <p></p>
+          <QRCode value={this.state.text} size="256" />
+          <p>Write some text, get qr code and permalink</p>
+          <textarea cols="120" rows="40"
+            onChange={
+              (e) => { this.onChange(e) }
+            }
+            value={this.state.text}
+          />
         </header>
       </div>
-    );
+    )
   }
 }
 
