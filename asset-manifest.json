@@ -1,13 +1,13 @@
 {
-  "main.css": "/qr-editor-permalink/static/css/main.626f29e3.chunk.css",
-  "main.js": "/qr-editor-permalink/static/js/main.85e8253e.chunk.js",
-  "main.js.map": "/qr-editor-permalink/static/js/main.85e8253e.chunk.js.map",
+  "main.css": "/qr-editor-permalink/static/css/main.7823389d.chunk.css",
+  "main.js": "/qr-editor-permalink/static/js/main.16012022.chunk.js",
+  "main.js.map": "/qr-editor-permalink/static/js/main.16012022.chunk.js.map",
   "runtime~main.js": "/qr-editor-permalink/static/js/runtime~main.d8803bb7.js",
   "runtime~main.js.map": "/qr-editor-permalink/static/js/runtime~main.d8803bb7.js.map",
   "static/js/2.7ffd0bb1.chunk.js": "/qr-editor-permalink/static/js/2.7ffd0bb1.chunk.js",
   "static/js/2.7ffd0bb1.chunk.js.map": "/qr-editor-permalink/static/js/2.7ffd0bb1.chunk.js.map",
   "index.html": "/qr-editor-permalink/index.html",
-  "precache-manifest.3f074fe50192707630f425d5f130fe09.js": "/qr-editor-permalink/precache-manifest.3f074fe50192707630f425d5f130fe09.js",
+  "precache-manifest.aad66c450dbe98b82f7f90f3096aeabb.js": "/qr-editor-permalink/precache-manifest.aad66c450dbe98b82f7f90f3096aeabb.js",
   "service-worker.js": "/qr-editor-permalink/service-worker.js",
-  "static/css/main.626f29e3.chunk.css.map": "/qr-editor-permalink/static/css/main.626f29e3.chunk.css.map"
+  "static/css/main.7823389d.chunk.css.map": "/qr-editor-permalink/static/css/main.7823389d.chunk.css.map"
 }
