@@ -21,7 +21,7 @@ class App extends Component {
 
           <p></p>
           <QRCode value={this.state.text} size="256" />
-          <p>Write some text, get qr code and permalink</p>
+          <p>Write some text, get qr code and permalink!</p>
           <textarea cols="120" rows="40"
             onChange={
               (e) => { this.onChange(e) }
