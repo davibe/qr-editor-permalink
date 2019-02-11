@@ -1,14 +1,18 @@
 {
   "name": "qr-editor",
   "version": "0.1.0",
+  "homepage": "https://davibe.github.io/qr-editor-permalink/",
   "private": true,
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "qrcode.react": "^0.9.2",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "react-scripts": "2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
